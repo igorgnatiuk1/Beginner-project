@@ -1,32 +1,19 @@
 .App {
   margin: 0 auto;
-  text-align: center;
   width: 1200px;
   display: grid;
-
   grid-template-areas:
   'h h'
-  'n m'
-;
-
+  'n m';
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
 }
-.App-header{
-  grid-area: h;
-  background-color: green;
-}
-.App-header img{
-  width: 50px;
-}
-.App-nav{
-  grid-area: n;
-  background-color: blue;
-}
+
+
 .App-main{
   grid-area: m;
-  background-color: yellow;
+  background-color: burlywood;
 }
 
 

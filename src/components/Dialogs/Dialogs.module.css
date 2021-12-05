@@ -1,0 +1,22 @@
+.main{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.main li{
+    padding: 10px;
+}
+.name{
+    padding-left: 50px;
+    color: red;
+}
+.dialogs{
+list-style: none;
+}
+.dialog a{
+    text-decoration: none;
+    color: blue;
+}
+.massages{
+    list-style: none;
+    color: blue;
+}
